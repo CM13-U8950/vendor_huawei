@@ -108,8 +108,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 	$(LOCAL_PATH)/proprietary/lib/libdivxdrmdecrypt.so:obj/lib/libdivxdrmdecrypt.so \
 	$(LOCAL_PATH)/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
-	$(LOCAL_PATH)/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-	$(LOCAL_PATH)/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
 	$(LOCAL_PATH)/proprietary/lib/libgemini.so:system/lib/libgemini.so \
 	$(LOCAL_PATH)/proprietary/lib/libgesture_client.so:system/lib/libgesture_client.so \
 	$(LOCAL_PATH)/proprietary/lib/libgestureservice.so:system/lib/libgestureservice.so \
@@ -135,8 +133,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
 	$(LOCAL_PATH)/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
 	$(LOCAL_PATH)/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-	$(LOCAL_PATH)/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-	$(LOCAL_PATH)/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
 	$(LOCAL_PATH)/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
 	$(LOCAL_PATH)/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
 	$(LOCAL_PATH)/proprietary/lib/libnl_2.so:system/lib/libnl_2.so \
@@ -154,7 +150,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
 	$(LOCAL_PATH)/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so
 
-#OMX Libs
+# OMX Libs
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
 	$(LOCAL_PATH)/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
@@ -184,7 +180,7 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_COPY_FILES += \
 #	$(LOCAL_PATH)/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
 
-#Adreno Firmware & Libs
+# Adreno Firmware & Libs
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
 	$(LOCAL_PATH)/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
