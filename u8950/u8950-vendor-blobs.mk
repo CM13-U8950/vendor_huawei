@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/lib/libauth.so:system/lib/libauth.so \
 	$(LOCAL_PATH)/lib/libcm.so:system/lib/libcm.so \
 	$(LOCAL_PATH)/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-	$(LOCAL_PATH)/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
 	$(LOCAL_PATH)/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
 	$(LOCAL_PATH)/lib/libcneutils.so:system/lib/libcneutils.so \
 	$(LOCAL_PATH)/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
