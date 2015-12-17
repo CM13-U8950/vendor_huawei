@@ -76,5 +76,6 @@ PRODUCT_COPY_FILES += \
 ifeq ($(PREBUILT_RIL),true)
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/rild:system/bin/rild \
+	$(LOCAL_PATH)/lib/libril.so:obj/lib/libril.so\
 	$(LOCAL_PATH)/lib/libril.so:system/lib/libril.so
 endif

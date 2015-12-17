@@ -108,6 +108,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 	$(LOCAL_PATH)/proprietary/lib/libdivxdrmdecrypt.so:obj/lib/libdivxdrmdecrypt.so \
 	$(LOCAL_PATH)/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
+	$(LOCAL_PATH)/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
 	$(LOCAL_PATH)/proprietary/lib/libgemini.so:system/lib/libgemini.so \
 	$(LOCAL_PATH)/proprietary/lib/libgesture_client.so:system/lib/libgesture_client.so \
 	$(LOCAL_PATH)/proprietary/lib/libgestureservice.so:system/lib/libgestureservice.so \
@@ -133,6 +134,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
 	$(LOCAL_PATH)/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
 	$(LOCAL_PATH)/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+	$(LOCAL_PATH)/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
 	$(LOCAL_PATH)/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
 	$(LOCAL_PATH)/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
 	$(LOCAL_PATH)/proprietary/lib/libnl_2.so:system/lib/libnl_2.so \
