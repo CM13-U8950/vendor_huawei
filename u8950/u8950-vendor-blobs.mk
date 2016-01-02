@@ -70,12 +70,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/nv/MSM8X25_U8950-51/nv_ext.bin:system/nv/MSM8X25_U8950-51/nv_ext.bin \
 	$(LOCAL_PATH)/nv/MSM8X25_U8950-51/nv_ext_FTY.bin:system/nv/MSM8X25_U8950-51/nv_ext_FTY.bin \
 	$(LOCAL_PATH)/nv/MSM8X25_U8950-1/nv_ext.bin:system/nv/MSM8X25_U8950-1/nv_ext.bin \
-	$(LOCAL_PATH)/nv/MSM8X25_U8950-1/nv_ext_FTY.bin:system/nv/MSM8X25_U8950-1/nv_ext_FTY.bin \
-	$(LOCAL_PATH)/vendor/fw_bcm4330_apsta_bg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd_apsta.bin
-
-ifeq ($(PREBUILT_RIL),true)
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/bin/rild:system/bin/rild \
-	$(LOCAL_PATH)/lib/libril.so:obj/lib/libril.so\
-	$(LOCAL_PATH)/lib/libril.so:system/lib/libril.so
-endif
+	$(LOCAL_PATH)/nv/MSM8X25_U8950-1/nv_ext_FTY.bin:system/nv/MSM8X25_U8950-1/nv_ext_FTY.bin
