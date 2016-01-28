@@ -20,12 +20,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bin/fmconfig:system/bin/fmconfig \
 	$(LOCAL_PATH)/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
 	$(LOCAL_PATH)/bin/modempre:system/bin/modempre \
-	$(LOCAL_PATH)/bin/mpdecision:system/bin/mpdecision \
 	$(LOCAL_PATH)/bin/netmgrd:system/bin/netmgrd \
 	$(LOCAL_PATH)/bin/oem_rpc_svc:system/bin/oem_rpc_svc \
 	$(LOCAL_PATH)/bin/qmiproxy:system/bin/qmiproxy \
 	$(LOCAL_PATH)/bin/qmuxd:system/bin/qmuxd \
-	$(LOCAL_PATH)/bin/thermald:system/bin/thermald \
 	$(LOCAL_PATH)/bin/wlan_detect:system/bin/wlan_detect \
 	$(LOCAL_PATH)/etc/bluetooth/BCM4330.hcd:system/etc/bluetooth/BCM4330.hcd \
 	$(LOCAL_PATH)/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
